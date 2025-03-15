@@ -67,6 +67,7 @@ button{
 button:hover{
     background-color: hsl(211, 100%, 50%,1);
     font-size: 15PX;
+    cursor: pointer;
 }
 main{
     flex: 1;
