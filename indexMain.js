@@ -1,5 +1,4 @@
-// hola esto es un comentario hecho con ctrl + }
-// Hola david como estas, yo estoy bien
+// hola 
 
 function capturar() {
   let user = document.getElementById("user").value;
