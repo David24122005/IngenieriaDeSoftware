@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="/IngenieriaDeSoftware/css/IndexStyle.css" />
+  </head>
+  <body>
+    <header>
+      <a href="Index.html"
+        ><img
+          src="/IngenieriaDeSoftware/media/87_home_leaf.jpg"
+          width="50px"
+          class="logo"
+      /></a>
+      <h1 class="title">HotelMax</h1>
+    </header>
+
+    <div class="loginFrm">
+      <h1>Iniciar sesion</h1>
+      <form>
+        <label for="User">Usuario</label>
+        <input type="text" id="user" name="user" />
+        <label for="Password">Contraseña</label>
+        <input type="password" id="password" name="password" />
+        <br />
+        <button type="submit" onclick="capturar()">Iniciar sesion</button>
+        <br />
+      </form>
+      <div class="links">
+        <a href="ForgotPassword.html">¿Olvidaste la Contraseña?</a>
+        <a href="Register.html">Registrarse</a>
+      </div>
+    </div>
+
+    <footer>
+      <p>Todos los derechos reservados</p>
+    </footer>
+  </body>
+  <script src="/IngenieriaDeSoftware/javascript/LoginMain.js"></script>
+</html>
